@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "artificial-disfluency-generation"
+version = "0.1.0"
+description = "Generating artificial disfluencies from fluent text easily and promptly"
+authors = ["Diogo Braganca <diogobraganca93@gmail.com>"]
+readme = "README.md"
+packages = [
+    { include = "python_files" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+colorama = ">=0.4.4"
+nltk = ">=3.5"
+numpy = ">=1.19.2"
+pandas = ">=1.1.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
